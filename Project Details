@@ -1,0 +1,40 @@
+🧠 SkillMap Agent
+    An intelligent AI agent built in Google Colab that helps users understand industry skill demand and discover relevant job opportunities in real-time.
+
+
+❗ Problem Statement
+    The traditional way of exploring skill demand involves manually searching across multiple platforms like blogs, forums, and job portals. This process is:
+        -Time-consuming
+        -Scattered across sources
+        -Often outdated or incomplete
+
+💡 Solution
+    SkillMap Agent simplifies this process by allowing users to ask natural language queries like:
+       e.g:"What’s the demand for Generative AI skills? Show me job openings in India."
+         The agent responds with:
+         📊 Current market demand insights
+         🌐 Aggregated data from multiple sources
+         💼 Live job listings with apply links
+
+⚙️ Tech Stack
+        1.Google Gemini->	AI reasoning & response generation
+        2.LangChain->	Agent orchestration
+        3.Tavily Search API->	Skill demand insights
+        4.JSearch API (RapidAPI)->	Real-time job listings
+        5.Python (Colab)->	Development environment         
+
+🔄 Workflow
+        1.User enters query
+        2.Agent interprets intent using Gemini
+        3.Tavily fetches industry insights
+        4.JSearch retrieves job listings
+        5.Agent combines results into a structured response
+
+-Features
+       🔍 Skill demand analysis
+       💼 Live job search integration
+       🤖 Natural language interaction
+       ⚡ Real-time data aggregation
+       🎯 Personalized insights        
+
+       
